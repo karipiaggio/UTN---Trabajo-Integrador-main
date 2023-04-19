@@ -1,0 +1,168 @@
+.fondo {font-family: 'Alkatra', cursive;
+    font-family: 'EB Garamond', serif;
+    background-color: beige;
+
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXs3ADVYFhCNa8Fw5NuY_KirkZKK_oMN3Z_qKeo6dIrArBl50RRpBO1fFzbC-zNw1r0E&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.fuenteF {
+        font-family: 'Roboto', cursive;
+        font-family: 'Open sans', cursive;
+}
+
+.h1class {color: blueviolet;
+}
+.card {
+    background-color: rgb(250, 219, 219);
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXs3ADVYFhCNa8Fw5NuY_KirkZKK_oMN3Z_qKeo6dIrArBl50RRpBO1fFzbC-zNw1r0E&usqp=CAU");
+    background-size: cover; */
+}
+.card-text {
+    font-family: 'Roboto', cursive;
+    font-family: 'Open sans', cursive;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.tituloCard {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    /* background-color: rgb(250, 219, 219); */
+    background-color: rgb(226, 154, 225);
+    font-size: x-large;
+}
+
+.pool {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXs3ADVYFhCNa8Fw5NuY_KirkZKK_oMN3Z_qKeo6dIrArBl50RRpBO1fFzbC-zNw1r0E&usqp=CAU");
+    background-repeat: no-repeat;
+}
+
+
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+.duda {
+    padding: 30px;
+    text-align: center;
+}
+
+.duda h2 {
+    color: rgb(239, 213, 193);
+}
+
+input, textarea {
+    color: #0a0a0a;
+    background-color: rgba(247,247,247,1);
+    border-color: #e9e4ea;
+    border-radius: 10px;    /*Redondea los bordes*/
+    border-style: solid;    /*Se cambia el borde a SOLID, el que viene es feo*/
+    padding: 7px;   /*Para agrandar y que el focus no esté pegado*/
+    /* margin-left: 10px; */
+    width: 100%;
+}
+
+.btnEnviar {
+    background-color: rgb(236, 231, 99);
+    color: rgb(233, 20, 119);
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* padding: 10px; */
+    font-size: 20px;
+    border-radius: 0.375rem;
+    border: 0.1px solid rgb(237, 116, 201);    
+}
+.btnEnviar:hover {
+    background-color: rgb(237, 153, 202);
+    color: white;
+}
+
+/* Esta estilo se usa para el PopUp, para que cuando se presione, la pantalla de abajo quede griseada con esta paleta */
+/* #modal::backdrop {
+    background-color: rgba(0,0,0,.55);
+} */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+    padding: 10px;
+}
+.modal-content {
+    /* background-color: #fefefe; */
+    background:  rgb(250, 219, 219);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px; /* Could be more or less, depending on screen size */
+    box-shadow: 0 0 10px rgb(248, 252, 13);
+}
+
+  /* The Close Button */
+  .close {
+    color: rgb(233, 20, 119);
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(243, 130, 196);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.formulario {
+    background-color: rgb(240, 99, 155);
+    padding: 2rem 0 .5rem;
+
+   }
+.formClase {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.formulario h1 {
+    text-align: center;
+}
+.formInput{
+    width: 25rem;
+}
+
+.btn {
+    background-color: rgb(188, 13, 194);
+    color: white;
+    font-size: 20px;
+    border-color: rgb(53, 3, 80);
+}
+.btn:hover {
+    background-color: rgb(236, 165, 212);
+    color: white;
+}
+
+.footer {
+    background-color: #212121;
+    color: #BDBDBD;
+    padding: 10px;
+    text-align: center;
+}
